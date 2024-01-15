@@ -1,5 +1,7 @@
 Welcome to the Computer Vision for Games! This project is designed to enable computer vision-based control for games using Python. The program utilizes OpenCV, CVZone, and Pynput libraries to offer a versatile solution for games that don't rely on mouse input.
 
+I played DragonBall Fighterz with this program, it was really hard, I mean like I started to hate that game
+
 Features:
 
 Computer Vision Control: The program employs computer vision techniques to interpret hand gestures, allowing users to control games without the need for a mouse.
