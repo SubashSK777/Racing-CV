@@ -1,34 +1,94 @@
-Welcome to the Computer Vision for Games! This project is designed to enable computer vision-based control for games using Python. The program utilizes OpenCV, CVZone, and Pynput libraries to offer a versatile solution for games that don't rely on mouse input.
+# 🏎️ Racing CV: Next-Gen Gesture Controller 🧤
 
-Features:
+![Racing Banner](assets/banner.png)
 
-Computer Vision Control: The program employs computer vision techniques to interpret hand gestures, allowing users to control games without the need for a mouse.
+<p align="center">
+  <img src="https://img.shields.io/badge/Asphalt%208-Controller-blue?style=for-the-badge&logo=target" />
+  <img src="https://img.shields.io/badge/Python-3.8+-yellow?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/OpenCV-Gaming-green?style=for-the-badge&logo=opencv" />
+  <img src="https://img.shields.io/badge/Status-Fully%20Modernized-orange?style=for-the-badge" />
+</p>
 
-Flexibility in Game Compatibility: This project is designed to work seamlessly with a wide range of games, as long as they don't require mouse input. Feel free to experiment and adapt it to suit your favorite games.
+---
 
-Easily Customizable Controls: The control scheme is highly adaptable to your preferences. You can easily customize the controls to suit your gaming style.
+## 🚀 Overview
 
+Experience **Asphalt 8** like never before. **Racing CV** transforms your webcam into a high-precision gesture input device. No controller? No problem. Use your hands to steer, drift, and blast through the competition with Nitro!
 
-Getting Started:
+### ✨ What's New (v2.0)
+- **Object-Oriented Refactor**: Clean, modular code for maximum performance.
+- **Modern HUD**: Real-time steering wheel indicator and status bars.
+- **Instructional Popup**: Intuitive setup guide before the race begins.
+- **Low Latency**: Optimized hand tracking with MediaPipe.
 
-Install Dependencies:
+---
 
-Ensure you have the required libraries installed using the commands mentioned in the prerequisites section.
+## 🎮 Game Controls
 
-Customize Controls:
+| Action | Gesture | Icon |
+| :--- | :--- | :---: |
+| **STEER** | Rotate hands at 9 & 3 o'clock | <img src="assets/steering.png" width="50"> |
+| **ACCELERATE** | Both palms wide open (🖐️ 🖐️) | 💨 |
+| **BRAKE/DRIFT** | Both hands as fists (✊ ✊) | 🛑 |
+| **NITRO** | Thumb up gesture (👍) | <img src="assets/nitro.png" width="50"> |
 
-Open the configuration file to easily customize the controls according to your preferences.
+---
 
-Contributing:
+## 🛠️ Installation
 
-If you find any issues, have suggestions, or want to contribute to the project, please feel free to open an issue or submit a pull request. Your feedback and contributions are highly appreciated!
+1. **Clone the Repo**
+   ```bash
+   git clone https://github.com/SubashSK777/Racing-CV.git
+   cd Racing-CV/Asphalt 8
+   ```
 
-License:
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirement.txt
+   ```
 
-This project is licensed under the GPL License.
+3. **Ignite the Engine**
+   ```bash
+   python main.py
+   ```
 
-Acknowledgments:
+---
 
-Special thanks to the creators and contributors of OpenCV, CVZone, and Pynput for providing the foundational libraries for this project.
+## 🧠 How it Works
 
-Enjoy gaming with computer vision control! Don't forget to star the repository if you find it useful! 
+```mermaid
+graph TD
+    A[Webcam Feed] --> B(MediaPipe Hand Tracking)
+    B --> C{Gesture Recognition}
+    C -->|Tilt Angle| D[Virtual Steering Wheel]
+    C -->|Fingers Count| E[Pedal Logic]
+    D --> F[SendInput API]
+    E --> F
+    F --> G[Asphalt 8 Game]
+    G --> H((Victory! 🏆))
+```
+
+---
+
+## 🌟 Visual HUD
+
+The all-new **Modern HUD** provides real-time feedback:
+- **Steering Wheel**: Rotates as you tilt your hands.
+- **Power Bars**: Visual confirmation for Accel/Brake/Nitro.
+- **Safety**: "Show Both Hands" warning when lost.
+
+---
+
+## 🤝 Contributing
+
+Got ideas to make it faster? 🏎️💨
+Feel free to fork, star, and submit an issue or PR!
+
+## 📜 License
+This project is licensed under the **GPL License**.
+
+---
+
+<p align="center">
+  MADE WITH ❤️ FOR RACERS
+</p>
