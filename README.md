@@ -2,13 +2,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Racing%20CV&fontSize=60&animation=fadeIn&fontAlignY=38&desc=Next-Gen%20Gesture%20Racing%20Controller&descAlignY=51&descAlign=62" width="100%" />
 </p>
 
----
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20Places/Racing%20Car.png" width="80" />
-  <br>
-  <b>Vrooooooom! 🏎️💨</b>
-</p>
 
 # 🧤 Racing CV: Next-Gen Gesture Controller
 
