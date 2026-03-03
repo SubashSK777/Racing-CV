@@ -1,0 +1,6 @@
+final_clone/
+temp_emojis/
+test_clone_2/
+__pycache__/
+*.pyc
+.env
