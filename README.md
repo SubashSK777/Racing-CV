@@ -1,4 +1,9 @@
 <p align="center">
+
+[![Python](https://img.shields.io/badge/Python-3.11%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
+[![Mediapipe](https://img.shields.io/badge/Mediapipe-Computer%20Vision-blue?style=for-the-badge&logo=google&logoColor=white)](https://mediapipe.dev/)
+[![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Racing%20CV&fontSize=60&animation=fadeIn&fontAlignY=38&desc=Next-Gen%20Gesture%20Racing%20Controller&descAlignY=51&descAlign=62" width="100%" />
 </p>
 
